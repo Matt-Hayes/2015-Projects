@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Template.xsl"?>
+<?xml-stylesheet type="text/css" href="stylesheet.css"?>
+<!DOCTYPE Channel[
+<!ELEMENT Channel (channels+)>
+	<!ELEMENT channels (category, channelname, subscribers, videos, views, logo?, profile, 
+	trailer?, URL, restricted, description, ownerprofile, relatedURL*, adsfree, payment)>
+	<!ELEMENT ownerprofile (name+, surname, email+, address*, profilePhoto?)>
+	<!ELEMENT category (#PCDATA)>
+	<!ELEMENT channelname (#PCDATA)>
+	<!ELEMENT subscribers (#PCDATA)>
+	<!ELEMENT videos (#PCDATA)>
+	<!ELEMENT views (#PCDATA)>
+	<!ELEMENT logo (#PCDATA)>
+	<!ELEMENT profile (#PCDATA)>
+	<!ELEMENT trailer (#PCDATA)>
+	<!ELEMENT URL (#PCDATA)>
+	<!ELEMENT restricted (#PCDATA)>
+	<!ATTLIST restricted access (yes | no) "yes">
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT surname (#PCDATA)>
+	<!ELEMENT email (#PCDATA)>
+	<!ELEMENT address (#PCDATA)>
+	<!ELEMENT profilePhoto (#PCDATA)>
+	<!ELEMENT relatedURL (#PCDATA)>
+	<!ELEMENT adsfree (#PCDATA)>
+	<!ATTLIST adsfree period (1month | 3months | 6months | 1year) "1month">
+	<!ELEMENT payment (#PCDATA)>
+	<!ATTLIST payment method (Banktransfer | CreditCard | Paypal) "Banktransfer">
+
+]>
+
+<Channel>
+
+	<channels>
+		<category>Music</category>
+			<channelname>Fueled by Ramen</channelname>
+			<subscribers>3,282,826</subscribers>
+			<videos>250</videos>
+			<views>3,287,979,808</views>
+			<logo>images/Ramen.jpg</logo>
+			<profile>images/Ramen2.0.jpg</profile>
+			<trailer>https://www.youtube.com/watch?v=nLQFjg1UIac</trailer>
+			<URL>https://www.youtube.com/user/FueledByRamen/featured</URL>
+			<restricted>no</restricted>
+			<description>Fueled by ramen official youtube page for all you daily music.</description>
+				<ownerprofile>
+					<name>atlantic</name>
+					<surname>records</surname>
+					<email>altantic_records@gmail.coms</email>
+					<address>altantic coast</address>
+					<profilePhoto>images/Profilepicramen.jpg</profilePhoto>
+				</ownerprofile>	
+			<relatedURL>https://www.youtube.com/channel/UC5yJDDNXeOOOvVyhEy0tI1A</relatedURL>
+			<adsfree>6months</adsfree>
+			<payment method="Paypal">banktransfer</payment>
+	</channels>
+	
+	<channels>
+		<category>NUTUBE-Music</category>
+			<channelname>Tasty</channelname>
+			<subscribers>560,722</subscribers>
+			<videos>500</videos>
+			<views>97,406,783</views>
+			<logo>images/Tasty.jpg</logo>
+			<profile>images/Tasty2.jpg</profile>
+			<trailer>https://www.youtube.com/watch?v=9mRo5TcwfIQ</trailer>
+			<URL>https://www.youtube.com/user/TastyNetwork/featured</URL>
+			<restricted>no</restricted>
+			<description>Tasty is a music label for all genres of dance, glitch-hop, dubstep, electronic and more.</description>
+				<ownerprofile>
+					<name>Tasty</name>
+					<surname>Musics</surname>
+					<email>Tasty_musics@gmail.com</email>
+					<address>Latvia</address>
+					<profilePhoto></profilePhoto>
+				</ownerprofile>	
+			<relatedURL>https://www.youtube.com/channel/UCu2yrDg7wROzElRGoLQH82A</relatedURL>
+			<adsfree>9months</adsfree>
+			<payment method="Paypal">banktransfer</payment>
+	</channels>
+
+	<channels>
+		<category>Music</category>
+			<channelname>Beegees</channelname>
+			<subscribers>252,541</subscribers>
+			<videos></videos>
+			<views>252,753,283</views>
+			<logo>images/Beegees3.jpg</logo>
+			<profile>images/Beegees2.jpg</profile>
+			<trailer></trailer>
+			<URL>https://www.youtube.com/user/beegeestv/about</URL>
+			<restricted>no</restricted>
+			<description>Bees gees official youtube channel, playing all of the bee gees greatest hits and more.</description>
+				<ownerprofile>
+					<name>Bee</name>
+					<surname>gees</surname>
+					<email>Beegees@gmail.com</email>
+					<address></address>
+					<profilePhoto>images/Beegees.jpg</profilePhoto>
+				</ownerprofile>	
+			<relatedURL></relatedURL>
+			<adsfree>1year</adsfree>
+			<payment method="Paypal">CreditCard</payment>
+	</channels>
+
+</Channel>	
