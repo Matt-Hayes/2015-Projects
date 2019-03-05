@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<!---Matthew Hayes
+		C3181550	
+		COMP1050
+		Monday 7-9pm
+		Index.html is the Homepage--->
+	<head>
+		<meta charset="UTF-8">
+		<title>NU-TUBE</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	</head>
+	
+	<body>
+
+		<div id="background">
+		<h1>NU-TUBE</h1>
+		<p id="p1">Welcome one and all to NU-TUBE. 
+			This website is helping, rising youtube stars get notice by having them advertised through NU-TUBE,
+			but this isnt just for new youtube stars. 
+			It is also for those who are looking to support these new stars by subscribing to their channels
+			and watching fresh new content these youtube stars are producing.
+			Created for an assignment at <abbr title="university of Newcastle">UoN</abbr> in 
+			2015 for <abbr title="Internet communication">COMP1050</abbr>.
+		</p>
+		<a id="data" href="">Homepage</a>
+		<class="index"><a id="data" class="index.html" href="Data1.xml">Gaming</a>
+		<class="index"><a id="data" class="index.html" href="Data2.xml">Music</a>
+		<a id="data" href="Form.html">Ad Purchase form</a>
+	<hr>
+		
+		<div id="sidebar">
+			<h2 id="Cate">Category Descriptions</h2>
+			<ol>
+				<li><a href="#animation">Animation</a></li>
+				<li><a href="#auto">Automotive</a></li>
+				<li><a href="#beauty">beauty and Fashion</a></li>
+				<li><a href="#comedy">Comedy</a></li>
+				<li><a href="#cooking">Cooking</a></li>
+				<li><a href="#entertain">Entertainment and film</a></li>
+				<li><a href="#gaming">Gaming</a></li>
+				<li><a href="#music">Music</a></li>
+				<li><a href="#news">News and Politics</a></li>
+				<li><a href="#science">Science and Education</a></li>
+				<li><a href="#sport">sport</a></li>
+				<li><a href="#tech">Technology</a></li>
+			</ol>
+	
+		</div>
+		
+		<div id="content">
+		<li><h2><a name="animation">Animation</a></h2>
+			<p id="comingsoon">
+				COMING SOON....</p>
+				
+		<li><h2><a name="auto">Automotive</a></h2>
+		<img src="images/automotive.jpg">
+			<p>Looking for your thrills and spill or engineering enginuity in automotive, well NU-TUBE has got it all for you.
+			This category will have racing, custom cars, car reviews, how to guides on car maintenance.
+				</p>
+				
+		<li><h2><a name="beauty">Beauty and Fashion</a></h2>
+			<p id="comingsoon">
+				COMING SOON....</p>
+				
+		<li><h2><a name="comedy">Comedy</a></h2>
+		<img src="images/comedy.jpg">
+			<p>Lookng for all the new cat fail videos? <strong>well NU-TUBE has them all.</strong>
+			Comedy category isnt' just cats, like everyone hoped for, but it does have comedians, practical jokes, 
+			fails and anything that makes you laugh.
+			</p>
+			
+		<li><h2><a name="cooking">Cooking</a></h2>
+			<p id="comingsoon">
+				COMING SOON....</p>
+				
+		<li><h2><a name="entertain">Entertainment and film</a></h2>
+			<p id="comingsoon">
+				COMING SOON....</p>
+				
+		<li><h2><a name="gaming">Gaming</a></h2>
+			<a name="XMLpage" href="Data1.xml">
+			<p>Gaming Channel display page</p>
+			
+			<p>Welcome to the gaming community of NU-TUBE.
+			Where you will find all your gaming needs. <span>For example, League of legends, planetside 2, destiny, etc.</span>
+			</p>
+		<img src="images/FO3.jpg">
+			
+		<li><h2><a name="music">Music</a></h2>
+		<img src="images/music.jpg">
+			<p><strong>NU-TUBE's mixing table of music.</strong> You will find all types of music,music reviews and concerts. 
+			<P>These will range from, House to Dance, to metal, to pop, and even classical music.</P>
+			</p>
+			
+		<li><h2><a name="news">News and Politics</a></h2>
+			<p id="comingsoon">
+				COMING SOON....</p>
+				
+		<li><h2><a name="science">Science and Education</a></h2>
+			<p id="comingsoon">
+				COMING SOON....</p>
+				
+		<li><h2><a name="sport">Sport</a></h2>
+		<img src="images/sport.jpg">
+			<p>NU-TUBE's location for all sporting action, and updates.
+			<P>This will show what some youtubes do for sport or review the latest sporting news or videos of the sporting events.</P>
+			</p>
+			
+		<li><h2><a name="tech">Technology</a></h2>
+		<img src="images/technology.jpg">
+			<p>Looking for new and advance technology. Well NU-TUBE will point you in the right direction
+			because these youtubes will be showing new technology that has been created or show technology they have created out of parts,
+			or ways to solve problems with current technology like your <em>PC and games</em>.
+			</p>
+		</div>
+		
+		<address>
+			<br>Matthew hayes
+			<br>c3181550@uon.edu.au
+			<br>c3181550
+			<br>Internet Communications
+		</address>
+	</div>
+	</body>
+</html>
