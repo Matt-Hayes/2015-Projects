@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<?xml-stylesheet type="text/xsl" href="Template.xsl"?>
+<?xml-stylesheet type="text/css" href="stylesheet.css"?>
+<!DOCTYPE Channel[
+<!ELEMENT Channel (channels+)>
+	<!ELEMENT channels (category, channelname, subscribers, videos, views, logo?, profile, 
+	trailer?, URL, restricted, description, ownerprofile, relatedURL?, adsfree, payment)>
+	<!ELEMENT ownerprofile (name+, surname, email+, address*, profilePhoto?)>
+	<!ELEMENT category (#PCDATA)>
+	<!ELEMENT channelname (#PCDATA)>
+	<!ELEMENT subscribers (#PCDATA)>
+	<!ELEMENT videos (#PCDATA)>
+	<!ELEMENT views (#PCDATA)>
+	<!ELEMENT logo (#PCDATA)>
+	<!ELEMENT profile (#PCDATA)>
+	<!ELEMENT trailer (#PCDATA)>
+	<!ELEMENT URL (#PCDATA)>
+	<!ELEMENT restricted (#PCDATA)>
+	<!ATTLIST restricted access (yes | no) "yes">
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT surname (#PCDATA)>
+	<!ELEMENT email (#PCDATA)>
+	<!ELEMENT address (#PCDATA)>
+	<!ELEMENT profilePhoto (#PCDATA)>
+	<!ELEMENT relatedURL (#PCDATA)>
+	<!ELEMENT adsfree (#PCDATA)>
+	<!ATTLIST adsfree period (1month | 3months | 6months | 1year) "1month">
+	<!ELEMENT payment (#PCDATA)>
+	<!ATTLIST payment method (Banktransfer | CreditCard | Paypal) "Banktransfer">
+	
+]>
+
+<Channel>
+		<channels>
+		<category>Gaming</category>
+			<channelname>FunHaus</channelname>
+			<subscribers>400k</subscribers>
+			<videos>300</videos>
+			<views>93,370,000</views>
+			<logo>images/Funhaus.jpg</logo>
+			<profile>images/Funhaus2.png</profile>
+			<trailer>https://www.youtube.com/watch?v=mhKOOgRFFlw</trailer>
+			<URL>https://www.youtube.com/channel/UCboMX_UNgaPBsUOIgasn3-Q</URL>
+			<restricted>yes</restricted>
+			<description>Funhaus is owned by Rooster Teeth. Funhaus is a group of guys playing games, 
+			doing podcasts, reviews and up to date news on all gaming things. </description>
+				<ownerprofile>
+					<name>Joel</name>
+					<surname>Rubin</surname>
+					<email>Roosterteeth_rubin@gmail.com</email>
+					<address>Los Angeles, California</address>
+					<profilePhoto>joelRubin.jpg</profilePhoto>
+				</ownerprofile>	
+			<relatedURL>https://www.youtube.com/user/RoosterTeeth</relatedURL>
+			<adsfree>1month</adsfree>
+			<payment method="Paypal">Paypal</payment>
+	</channels>
+	
+	<channels>
+		<category>NUTUBE - Gaming</category>
+			<channelname>Trymike4instance</channelname>
+			<subscribers>231,952</subscribers>
+			<videos>35</videos>
+			<views>50,151,158</views>
+			<logo>images/Mav.jpg</logo>
+			<profile>images/Mav2.jpg</profile>
+			<trailer>https://www.youtube.com/watch?v=53XcR8u93Jw</trailer>
+			<URL>https://www.youtube.com/user/TryMike4instance</URL>
+			<restricted>no</restricted>
+			<description>TryMike4instance is a youtuber who puts a comedy aspect into video games, mashs up musics in his videos and mostly plays DOTA 2</description>
+				<ownerprofile>
+					<name>Michael</name>
+					<surname>Mavromatis</surname>
+					<email>Mavromantis@gmail.com</email>
+					<address>England</address>
+					<profilePhoto>images/Mav3.jpg</profilePhoto>
+				</ownerprofile>	
+			<relatedURL>https://www.youtube.com/channel/UCaGWSIZnljlgNTSMzYnxTEg</relatedURL>
+			<adsfree></adsfree>
+			<payment method="Paypal"></payment>
+	</channels>
+	
+	<channels>
+		<category>NUTUBE-Gaming</category>
+			<channelname>Dotacinema</channelname>
+			<subscribers>1,255,237</subscribers>
+			<videos>200</videos>
+			<views>529,643,165</views>
+			<logo>images/doto.jpg</logo>
+			<profile>images/synderewind.jpg</profile>
+			<trailer>https://www.youtube.com/watch?v=How5yTncXEY</trailer>
+			<URL>https://www.youtube.com/user/DotaCinema/featured</URL>
+			<restricted>no</restricted>
+			<description>Dotacinema is a youtube channel that does complications of dota 2 game plays, host tournments for dota 2 and game play of dota 2.</description>
+				<ownerprofile>
+					<name>Shannon</name>
+					<surname>sunsfan</surname>
+					<email>http://www.dotacinema.com/contact</email>
+					<address>America</address>
+					<profilePhoto>images/sunsfan.jpg</profilePhoto>
+				</ownerprofile>	
+			<relatedURL>https://www.youtube.com/channel/UCH16H-DNfB0yf1Gxv5XfFEA</relatedURL>
+			<adsfree>1year</adsfree>
+			<payment method="Paypal">paypal</payment>
+	</channels>
+	
+</Channel>	
