@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript">
+		name = prompt("what is my name?");
+		
+		function channelinfo(){
+		if(name =="" ){
+			alert("Missing information in Channelname or URL");
+			return false;
+			} else {
+			return true;
+			}
+		}
+		var channelname = document.getElementById('channelname');
+		document.Purchaseform.URL.value
+		document.Purchaseform.restrict[0]
+		document.Purchaseform.restrict[1]
+		document.Purchaseform.description.value
+		
+		function ownerInfor(){
+		
+		}
+		document.Purchaseform.Lastname.value
+		document.Purchaseform.Firstname.value
+		document.Purchaseform.Email.value
+		document.Purchaseform.address.value
+		
+		function advertPay{
+		
+		}
+		
+		document.Purchaseform.Advert[0]
+		document.Purchaseform.Advert[1]
+		document.Purchaseform.Advert[2]
+		document.Purchaseform.Advert[3]
+		
+		document.Purchaseform.Payment[0]
+		document.Purchaseform.Payment[1]
+		document.Purchaseform.Payment[2]
+		alert("hello")
+		</script>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	</head>
+	<body>
+		<h1>NU-Tube Ad Purchase Form</h1>
+			
+			<form name="Purchaseform">
+			<h2>Channel Information</h2>
+			
+				<ol>Channel Name: 	<input type="text" name="Channelname" value=""></ol>
+				<ol>Channel URL: 	<input type="text" name="URL" value=""></ol>
+				<ol>Restrictions: 
+					On: 	<input type="checkbox" name="restrict" value="On">
+					Off: 	<input type="checkbox" name="restrict" value="Off"></ol>
+				<ol>Description: <input type="text" name="Enter brief Description"></ol>
+					
+			<h2>Owner Information</h2>
+				<ol>Surname: 	<input type="text" name="Surname"></ol>
+				<ol>First name: <input type="text" name="First name"></ol>
+				<ol>Email: 		<input type="text" name="Email"></ol>
+				<ol>Address: 	<input type="text" name="Address"></ol>
+				
+			<h2>Advertisement and Payment</h2>
+				<ol>Advertisement Period:
+					1 month(free):	<input type="checkbox" name="Advert" value="1 Month">
+					3 months:		<input type="checkbox" name="Advert" value="3 Months">
+					6 months:		<input type="checkbox" name="Advert" value="6 Months">	
+					1 year:			<input type="checkbox" name="Advert" value="1 Year"></ol>
+					
+				<ol>Payment Type:
+					Bank transfer:	<input type="checkbox" name="Payment" value="Bank transfer">
+					Credit Card:	<input type="checkbox" name="Payment" value="Credit Card">
+					Paypal:			<input type="checkbox" name="Payment" value="Paypal"></ol>
+					
+				<ol><input type="submit" value="Click here to Submit" onclick="javacript:channelinfo()" ></ol> 
+				<ol><input type="reset" value="Clear Form"></ol>
+			</form>
+		<a href="index.html">Homepage</a>
+	</body>
+</html>
